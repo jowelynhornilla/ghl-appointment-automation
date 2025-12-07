@@ -27,7 +27,7 @@ The workflow cleans and structures the raw data:
 - Combines first + last name
 - Converts timestamps to ISO format
 - Ensures fallback values if fields are missing
-- Maps GHL field names → internal naming convention
+- Maps GHL field names internal naming convention
 - This ensures all downstream nodes receive clean and predictable data.
 
 Step 3 – Create Contact (Airtable Mock)
@@ -51,6 +51,7 @@ End: 2025-01-05 16:00
 Status: booked
 Project Type: Consultation
 Lead Source: Facebook Ads
+
 <img width="482" height="201" alt="Screenshot 2025-12-07 at 7 51 57 PM" src="https://github.com/user-attachments/assets/232a3452-59aa-4100-b0a2-918bf7c0336d" />
 
 
@@ -89,6 +90,3 @@ Lead Source: Facebook Ads
 
 ## 5. Files Included
 - /workflow/ghl-appointment-automation.json
-
-## 6. Loom Demo Link
-
