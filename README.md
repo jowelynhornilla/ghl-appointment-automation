@@ -1,6 +1,7 @@
 # GHL Appointment Automation
 
 ## 1. Architecture Overview
+An automated workflow built using n8n that processes GHL appointment webhooks, normalizes the data, stores it in a mock CRM (Airtable), and sends formatted Slack notifications
 <img width="1800" height="1126" alt="Screenshot 2025-12-07 at 7 45 56 PM" src="https://github.com/user-attachments/assets/5d592fc4-e8c3-40a7-a466-cd89227b5211" />
 
 
