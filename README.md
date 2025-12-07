@@ -44,13 +44,13 @@ The appointment is linked to the created contact:
 
 Step 5 – Send Slack Notification
 A message is posted to Slack using a webhook URL (secured via template variable in JSON).
-``New Appointment Booked!
+New Appointment Booked!
 Name: Jane Doe
 Start: 2025-01-05 15:00
 End: 2025-01-05 16:00
 Status: booked
 Project Type: Consultation
-Lead Source: Facebook Ads``
+Lead Source: Facebook Ads
 <img width="482" height="201" alt="Screenshot 2025-12-07 at 7 51 57 PM" src="https://github.com/user-attachments/assets/232a3452-59aa-4100-b0a2-918bf7c0336d" />
 
 
@@ -62,7 +62,7 @@ Lead Source: Facebook Ads``
 2. How to test via Postman
    - POST to your n8n webhook URL: https://your-n8n-domain/webhook/test-appointment
    - Example payload
-     `{
+     {
         "event": "appointment.created",
         "appointment_id": "apt_12345",
         "location_id": "loc_abc",
@@ -83,7 +83,7 @@ Lead Source: Facebook Ads``
             "lead_source": "Facebook Ads"
           }
         }
-      }`
+      }
      - How to trigger
        - Run via GHL webhook
 
